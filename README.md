@@ -21,4 +21,4 @@ You must also have the programs quartet-controller.sh, quartet-count.sh, summari
 
 In two of these programs you must change the directory paths.  Change each "~/phylogenetics/quartets/" to your directory path.  You will have to twice in the pgoram quartet-controller.sh, and once in quartet_count.sh.
 
-If you want to delete taxa use the R program DeleteDate.R.  Change "~Desktop/genetrees" to your directory path, where "genetrees" is the name of your gene tree file in .newick format.  Change the 0.60 in "threshhold <- 0.60" to be the percentage of taxa you want to delete.  Then change "~/Desktop/outtree" to your directory path, where "outtree" is the file name you want for the updated tree.  
+If you want to delete taxa use the R program DeleteDate.R.  Change ~Desktop/genetrees to your directory path, where "genetrees" is the name of your gene tree file in .newick format.  Change the 0.60 in "threshhold <- 0.60" to be the percentage of taxa you want to delete.  Then change ~/Desktop/outtree to your directory path, where "outtree" is the file name you want for the updated tree.  
