@@ -2,9 +2,9 @@
 
 The usage for running the entire program is:
 
-./run.sh <genetreesfile> <outfile> <index>
+./run.sh genetreesfile outfile index
 
-where <genetreesfile> is a file containing a collection of trees in .newick format with one tree per line, and <outfile> is the name of the file in which the species tree in .newick format will be written to.  <index> is a number 1-5 that specifies which weight formula will be used to weight quartets.  
+where genetreesfile is a file containing a collection of trees in .newick format with one tree per line, and outfile is the name of the file in which the species tree in .newick format will be written to.  index is a number 1-5 that specifies which weight formula will be used to weight quartets.  
 Use them as follows:
 
 1- AllFullFormula: A weight formula found using baysian statistics
