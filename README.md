@@ -8,9 +8,13 @@ where <genetreesfile> is a file containing a collection of trees in .newick form
 Use them as follows:
 
 1- AllFullFormula: A weight formula found using baysian statistics
+
 2- AllNumeratorOnly: Solely the numerator of the weight formula
+
 3- AllWeightAppearances: The number of times that the quartet appears will be the weight it is assigned.
+
 4- AllWeightKOverN: The number of times the quartet appears divided by the number of times all 3 quartet topologies appear will be the weight
+
 5- OneThirdWeight1: Only the quartet topology that appears most often will be used with a weight of 1.  The other two quartets will be ignored.
 
 You must also have the programs quartet-controller.sh, quartet-count.sh, summarize_quartets_stdin.pl and triplets.soda2103 in order to run this program.  These can be found at https://github.com/redavids/phylogenetics-tools/tree/master/quartets
