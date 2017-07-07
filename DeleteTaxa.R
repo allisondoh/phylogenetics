@@ -7,7 +7,7 @@ library(ape)
 library(phangorn)
 
 # get data to build up the gene trees 
-true.trees <- read.tree(paste0("~/Desktop/truegenetrees4")) 
+true.trees <- read.tree(paste0("~/Desktop/genetrees")) 
 
 print(inc);
 threshhold <- 0.60
@@ -37,5 +37,5 @@ for (c in 1:1000){
 }
 new.trees <- true.trees[trees]
 
-write.tree(new.trees, file = paste0("~/Desktop/straubdatadeleted"), append = FALSE,
+write.tree(new.trees, file = paste0("~/Desktop/outtree"), append = FALSE,
            digits = 10, tree.names = FALSE)
